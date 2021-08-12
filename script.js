@@ -20,9 +20,9 @@ var cursorCost = 0;
 
 document.getElementById("buyCursorBtn").onclick = function() {
 	if (cookieCount >= cursorCost) {
-		cookieCount -= cursorCost;
-		cursorCount++;
-		cps++;
+		    cookieCount -= cursorCost;
+		    cursorCount++;
+		    cps++;
 	}
 }
 
