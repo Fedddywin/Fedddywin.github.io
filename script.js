@@ -7,18 +7,16 @@ cookie.onclick = function() {
     
 }
 var countElement = document.getElementById("count");
-    cookie.onclick = function() {
-        cookieCount++
-        countElement.innerHTML = cookieCount;
+
+
+cookie.onclick = function() {
+    cookieCount++
+    countElement.innerHTML = cookieCount;
 }
 
 var cps = 0;
 var cursorCount = 0;
 var cursorCost = 0;
-
-document.getElementById("buyCursorBtn").onclick = function() {
-	
-}
 
 document.getElementById("buyCursorBtn").onclick = function() {
 	if (cookieCount >= cursorCost) {
