@@ -26,11 +26,6 @@ document.getElementById("buyCursorBtn").onclick = function() {
 	}
 }
 
-setInterval(function() {
-	cookieCount += cps;
-},1000);
-
-
 cursorCountElement = document.getElementById("cursorCount");
 setInterval(function() {
 	cookieCount += cps;
