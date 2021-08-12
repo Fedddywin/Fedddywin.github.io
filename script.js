@@ -30,7 +30,7 @@ cursorCountElement = document.getElementById("cursorCount");
 setInterval(function() {
 	cookieCount += cps;
 	countElement.innerHTML = cookieCount;
-},1000);
+},2000);
 document.getElementById("buyCursorBtn").onclick = function() {
 	cookieCount -= cursorCost;
 	countElement.innerHTML = cookieCount;
