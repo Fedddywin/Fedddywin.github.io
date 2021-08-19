@@ -12,7 +12,11 @@ else
 
 document.getElementById("counter").innerHTML = x
 document.getElementById("btn").addEventListener("click", iterate)
+
+if (x >= 25)
+{
 document.getElementById("btn2").addEventListener("click",iterate2)
+}
 
 function iterate(){
 	x += 1
