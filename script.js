@@ -1,6 +1,6 @@
-let click
-let y
-let cost1
+var click
+var y
+var cost1
 //Storage Check
 if (localStorage.getItem("count"))
 {
