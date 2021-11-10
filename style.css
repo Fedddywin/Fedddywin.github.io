@@ -11,6 +11,11 @@
 
 .bigGreen{
     background-color: green;
-    color: white
+    color: white;
     
+}
+
+.bigBlue{
+    background-color: blue;
+    color: white;
 }
