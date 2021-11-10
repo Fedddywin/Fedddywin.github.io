@@ -1,6 +1,6 @@
-var click
-var y
-var cost1
+var click = 0
+var y = 0
+var cost1 = 10
 //Storage Check
 if (localStorage.getItem("count"))
 {
@@ -9,6 +9,15 @@ if (localStorage.getItem("count"))
 else 
 {
 	click = 0 
+}
+
+if (localStorage.getItem("mouses"))
+{
+	y = parseInt(localStorage.getItem("mouses"))
+}
+else
+{
+	y = 0
 }
 
 
@@ -66,5 +75,5 @@ function AutoMouse() {
 	console.log(y)
 	document.getElementById("AutoMouse").innerHTML = y
 	click = click - cost1
-	cost1 = cost1 * 1.1
+	cost1 = cost1 * 1.5
 }
